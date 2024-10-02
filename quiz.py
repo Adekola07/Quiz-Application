@@ -142,7 +142,7 @@ if __name__=="__main__":
     score=0
     random.shuffle(quiz_data)
     for i in range(1,11):
-        print(f'Question {i} of 15')
+        print(f'Question {i} of 10')
         if ask_question(quiz_data[i]):
             print("Correct!\n")
             score += 1
